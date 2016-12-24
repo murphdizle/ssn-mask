@@ -7,5 +7,5 @@ AngularJS directive that masks social security number. An ssn like 123456789 wil
 Using the directive:
 ng-model is required, the variable there will be the value of the displayed social security number and will be masked. The variable passed into the directive will be the actual value (ssn in the example below). 
 
-<input type="text" id="ssn" ng-model="displayedSsn" ssn="ssn" required />
+\<input type="text" id="ssn" ng-model="displayedSsn" ssn="ssn" required />
 
